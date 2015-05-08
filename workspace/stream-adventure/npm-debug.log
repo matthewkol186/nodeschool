@@ -1,0 +1,86 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/v0.10.35/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/v0.10.35/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'thorugh2' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 warn package.json chat-example@0.0.0 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'thorugh2', null ]
+7 verbose cache add name=undefined spec="thorugh2" args=["thorugh2",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'thorugh2',
+8 verbose parsed url   path: 'thorugh2',
+8 verbose parsed url   href: 'thorugh2' }
+9 silly lockFile 3d9adadc-thorugh2 thorugh2
+10 verbose lock thorugh2 /home/ubuntu/.npm/3d9adadc-thorugh2.lock
+11 silly lockFile 3d9adadc-thorugh2 thorugh2
+12 silly lockFile 3d9adadc-thorugh2 thorugh2
+13 verbose addNamed [ 'thorugh2', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile d4817841-thorugh2 thorugh2@
+16 verbose lock thorugh2@ /home/ubuntu/.npm/d4817841-thorugh2.lock
+17 silly addNameRange { name: 'thorugh2', range: '*', hasData: false }
+18 verbose request where is /thorugh2
+19 verbose request registry https://registry.npmjs.org/
+20 verbose request id 439384ec7b539365
+21 verbose url raw /thorugh2
+22 verbose url resolving [ 'https://registry.npmjs.org/', './thorugh2' ]
+23 verbose url resolved https://registry.npmjs.org/thorugh2
+24 verbose request where is https://registry.npmjs.org/thorugh2
+25 info trying registry request attempt 1 at 18:29:01
+26 http GET https://registry.npmjs.org/thorugh2
+27 http 404 https://registry.npmjs.org/thorugh2
+28 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+28 verbose headers   'content-type': 'application/json',
+28 verbose headers   'cache-control': 'max-age=0',
+28 verbose headers   'content-length': '51',
+28 verbose headers   'accept-ranges': 'bytes',
+28 verbose headers   date: 'Thu, 30 Apr 2015 18:29:01 GMT',
+28 verbose headers   via: '1.1 varnish',
+28 verbose headers   age: '0',
+28 verbose headers   connection: 'keep-alive',
+28 verbose headers   'x-served-by': 'cache-dfw1828-DFW',
+28 verbose headers   'x-cache': 'MISS',
+28 verbose headers   'x-cache-hits': '0',
+28 verbose headers   'x-timer': 'S1430418541.298937,VS0,VE68' }
+29 silly registry.get cb [ 404,
+29 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+29 silly registry.get     'content-type': 'application/json',
+29 silly registry.get     'cache-control': 'max-age=0',
+29 silly registry.get     'content-length': '51',
+29 silly registry.get     'accept-ranges': 'bytes',
+29 silly registry.get     date: 'Thu, 30 Apr 2015 18:29:01 GMT',
+29 silly registry.get     via: '1.1 varnish',
+29 silly registry.get     age: '0',
+29 silly registry.get     connection: 'keep-alive',
+29 silly registry.get     'x-served-by': 'cache-dfw1828-DFW',
+29 silly registry.get     'x-cache': 'MISS',
+29 silly registry.get     'x-cache-hits': '0',
+29 silly registry.get     'x-timer': 'S1430418541.298937,VS0,VE68' } ]
+30 silly lockFile d4817841-thorugh2 thorugh2@
+31 silly lockFile d4817841-thorugh2 thorugh2@
+32 error 404 404 Not Found: thorugh2
+32 error 404
+32 error 404 'thorugh2' is not in the npm registry.
+32 error 404 You should bug the author to publish it
+32 error 404 It was specified as a dependency of 'chat-example'
+32 error 404
+32 error 404 Note that you can also install from a
+32 error 404 tarball, folder, or http url, or git url.
+33 error System Linux 3.14.13-c9
+34 error command "/home/ubuntu/.nvm/v0.10.35/bin/node" "/home/ubuntu/.nvm/v0.10.35/bin/npm" "install" "thorugh2"
+35 error cwd /home/ubuntu/workspace/stream-adventure
+36 error node -v v0.10.35
+37 error npm -v 1.4.28
+38 error code E404
+39 verbose exit [ 1, true ]
